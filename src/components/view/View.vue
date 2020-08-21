@@ -1,7 +1,6 @@
 <template>
 <v-item-group mandatory>
     <v-container>
-
         <v-row>
             <v-col>
                 <v-item>
