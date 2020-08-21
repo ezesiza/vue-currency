@@ -1,4 +1,4 @@
-# curr Backend
+# currency Backend
 1. Install dependencies (from the root folder /server) by running `npm install`.
 
 ## Access
@@ -7,7 +7,7 @@ The project main entry points:
 
 1. For accessing the resources in the API: http://127.0.0.1:5006/app/coinbase
 
-# curr Frontend
+# currency Frontend
 
 ## Project setup
 ```
