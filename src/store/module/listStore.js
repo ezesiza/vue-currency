@@ -56,12 +56,10 @@ const mutations = {
     state.favoriteList = [...newList]
   },
   removeCurrencyFromList (state, item) {
-    const listToChange = newList
-    const currencyToRemove = listToChange.find(
+    const currencyToRemove = newList.find(
       (data) => data.code === item.currency.currency.code
     )
-    listToChange.indexOf(currencyToRemove)
-    listToChange.splice(listToChange.indexOf(currencyToRemove), 1)
+    newList.splice(newList.indexOf(currencyToRemove), 1)
     state.favoriteList = [...newList]
   },
   deleteAllFavorites (state) {

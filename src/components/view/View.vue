@@ -128,7 +128,6 @@ export default {
     },
     deleteAllFavorites () {
       this.$store.dispatch('deleteAllFavorites')
-      this.favoriteListView = []
       this.dialog = false
     }
   },
